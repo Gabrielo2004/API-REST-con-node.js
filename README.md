@@ -6,21 +6,20 @@ Esta API permite gestionar una biblioteca a través de operaciones CRUD. permite
 
 ## Recursos utilizados
 
-### Books (Libros)
+### Books
 - `title`: Título del libro
 - `year`: Año de publicación
 - `genre`: Género literario
 - `author`: Nombre del autor (string)
 
-### Authors (Autores)
+### Author
 - `name`: Nombre del autor
 - `nationality`: Nacionalidad
 - `birth`: Año de nacimiento
 
-### Users (Usuarios)
+### Users
 - `name`: Nombre del usuario
-- `email`: Correo electrónico
-- `password`: Contraseña (en backend, protegida con JWT)
+- `password`: Contraseña
 
 ---
 
